@@ -1,5 +1,10 @@
 package javacodechecker;
 
+
+
+
+
+
 import org.apache.logging.log4j.Logger;
 
 public class SensitiveInfoLogged {
