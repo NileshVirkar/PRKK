@@ -6,7 +6,7 @@ public class SensitiveInfoLogged {
 	private static Logger logger = org.apache.logging.log4j.LogManager.getLogger(SensitiveInfoLogged.class);
 
 	public void performSomeAction(String password) { 
-		// EMB-ISSUE: CodeIssueNames.SENSITIVE_INFO_LOGGED
+		// EMB-ISSUE: CodeIssueNames.SENSITIVE_INFO_LOGGED 
 		logger.info("Password is " + password);
 	}
 
