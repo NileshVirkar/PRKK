@@ -18,6 +18,8 @@ public class SensitiveInfoLogged {
 	public void infoNotLogged(String password) {
 		// EMB-ISSUE: CodeIssueNames.SENSITIVE_INFO_LOGGED/no-detect
 		logger.info("Password is not logged");
+
+		System.out.println("sysout");
 	}
 
 }
